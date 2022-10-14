@@ -1,0 +1,23 @@
+
+
+
+
+
+*{margin: 0;padding: 0;}
+.container{max-width: 1200px;}
+.info_text{font-size: 26px; ;line-height:36px;
+           max-width: 747px;text-align: center;
+           color:#5F4D5D;margin: 130px auto 50px;}
+/* flex */
+.info_cards_container{display:flex;justify-content: space-between}
+.card{ background: #CEB3CB;transition: 0.5s all;;}
+.card_content{padding: 25px;
+    line-height: 30px;
+    color: #FFFFFF;}
+.card_title{ font-size: 25px;color: #FFFFFF;}
+.card_link{ font-size: 17px;color: #FFFFFF;}
+
+/* Box Shadow ten css */
+.card:hover{ box-shadow: 5px 5px 0px 0px  #B08EAD, 10px 10px 0px 0px #bda0ba,
+    15px 15px 0px 0px #cbb1c8, 20px 20px 0px 0px #ddc6da, 25px 25px 0px 0px #f1dfef, 5px 5px 15px 5px rgba(0,0,0,0);}
+
